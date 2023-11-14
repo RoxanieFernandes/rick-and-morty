@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input} from '@angular/core';
+import { Character } from 'src/app/Character';
 
 @Component({
   selector: 'app-detail-card',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./detail-card.component.css']
 })
 export class DetailCardComponent {
-
+  @Input() character: Character | undefined;
 }
