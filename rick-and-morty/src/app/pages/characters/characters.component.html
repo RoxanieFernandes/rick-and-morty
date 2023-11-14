@@ -1,0 +1,22 @@
+<div>
+  <div class="d-flex justify-content-center mt-3">
+    <div class="w-50">
+      <input
+        class="form-control"
+        type="search"
+        placeholder="Search for your favorite character..."
+        (input)="search($event)"
+        aria-label="Search"
+      />
+    </div>
+  </div>
+  <div class="container d-flex flex-column">
+    <h2 class="list mt-4 mb-4 text-center">CHARACTERS OF RICK AND MORTY</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-auto mb-4" *ngFor="let character of characters">
+        <app-small-card [character]="character"></app-small-card>
+      </div>
+    </div>
+  </div>
+  <div infinite-scroll (scrolled)="scroll()" [infiniteScrollDistance]="2"></div>
+</div>
