@@ -17,7 +17,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 ```bash
 git clone https://github.com/RoxanieFernandes/rick-and-morty.git
 
-cd rick-and-morty
+cd rick-and-morty/rick-and-morty
 ```
 2. Instale as dependências:
 
@@ -27,8 +27,14 @@ npm install
 
 3. Inicie o servidor local:
 ```bash
-ng serve --open
+ng serve 
 ```
+ou
+
+```bash
+npm start
+```
+
 
 4. Acesse a aplicação no navegador: 
 http://localhost:4200/
@@ -108,7 +114,7 @@ A integração do framework Bootstrap foi uma etapa desafiadora, mas enriquecedo
 A integração da biblioteca ngx-infinite-scroll para a funcionalidade de scroll infinito foi um desafio interessante. Ao explorar a documentação e exemplos disponíveis, adquiri conhecimento sobre como implementar a paginação de maneira dinâmica, permitindo o carregamento progressivo de conteúdo conforme o usuário se aproxima do final da lista. Esta experiência me proporcionou uma compreensão mais profunda sobre técnicas de scroll infinito e como aplicá-las em projetos reais.
 
 ### A Importância do Estudo Contínuo
-Ambas as tecnologias, Bootstrap e ngx-infinite-scroll, demandaram um tempo significativo de estudo e prática para sua correta implementação. Durante esse processo, percebi a importância de estar sempre disposto a aprender e enfrentar desafios. Nem sempre as coisas saem como planejado, mas a capacidade de pesquisa, experimentação e persistência são fundamentais para alcançar resultados funcionais e significativos.
+Ambas as tecnologias, Bootstrap e ngx-infinite-scroll, demandaram um tempo significativo de estudo e prática para sua correta implementação. Durante esse processo, percebi a importância de estar sempre disposta a aprender e enfrentar desafios. Nem sempre as coisas saem como planejado, mas a capacidade de pesquisa, experimentação e persistência são fundamentais para alcançar resultados funcionais e significativos.
 
 Embora possa haver áreas onde gostaria de melhorar ou refinar no projeto, considero que a aplicação das tecnologias aprendidas representa um passo importante no meu desenvolvimento como desenvolvedora. Estou ansiosa para aplicar esses conhecimentos em projetos futuros e continuar a aprender e evoluir na área de desenvolvimento web.
 
